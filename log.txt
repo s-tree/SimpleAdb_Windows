@@ -1,0 +1,307 @@
+
+[2021-12-22 09:26:11] adb disconnect 
+[2021-12-22 09:33:18] adb disconnect 
+[2021-12-23 10:46:55] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXClock-1_0_0_6.apk md5 = D1C2546D1485F476F0E0718343BE255C
+[2021-12-23 10:46:56] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXTest-1_1_22.apk md5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2021-12-23 10:46:57] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/cam-1_1_0_40.apk md5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2021-12-23 10:46:57] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/doo-2_2_0_341.apk md5 = 6A8D9272F66811F49B4541F7C489A469
+[2021-12-23 10:46:58] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/jxservice-1_0_2.apk md5 = E643C6069512C2F2659C44024FBAA092
+[2021-12-23 10:46:58] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/lan-1_1_0_30.apk md5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2021-12-23 10:46:58] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pad-2_5_0_1159.apk md5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2021-12-23 10:47:00] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pro-1_1_4_48.apk md5 = 63E883392B0C90A36845D82E38789916
+[2021-12-23 10:47:00] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/up-1_3_0_180.apk md5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2021-12-23 10:47:00] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk
+[2021-12-23 10:47:09] RuntimeUtil error : cmd = adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk errorMessage = adb: failed to install E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk: Failure [-26: Package com.jingxi.smartlife.pad new target SDK 22 doesn't support runtime permissions but the old target SDK 26 does.]
+[2021-12-23 10:47:09] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk
+[2021-12-23 10:47:13] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\JXTest-1_1_22.apk
+[2022-01-04 10:01:25] adb connect 10.10.6.7
+[2022-01-04 10:01:51] adb disconnect 
+[2022-01-04 10:02:49] adb connect 10.10.6.7
+[2022-01-04 10:03:43] adb disconnect 
+[2022-01-04 10:04:01] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXClock-1_0_0_6.apk md5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-04 10:04:01] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXTest-1_1_22.apk md5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-04 10:04:01] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/cam-1_1_0_40.apk md5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-04 10:04:02] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/doo-2_2_0_341.apk md5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-04 10:04:04] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/jxservice-1_0_2.apk md5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-04 10:04:04] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/lan-1_1_0_30.apk md5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-04 10:04:04] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pad-2_5_0_1159.apk md5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-04 10:04:07] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pro-1_1_4_48.apk md5 = 63E883392B0C90A36845D82E38789916
+[2022-01-04 10:04:07] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/up-1_3_0_180.apk md5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-04 10:04:07] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/padserver-1_4_79-T800C.apk md5 = 062FFD1015B69E55AEDF54F2CA1FF9FB
+[2022-01-04 10:04:08] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk
+[2022-01-04 10:04:16] RuntimeUtil error : cmd = adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk errorMessage = adb: failed to install E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk: Failure [-26: Package com.jingxi.smartlife.pad new target SDK 22 doesn't support runtime permissions but the old target SDK 26 does.]
+[2022-01-04 10:04:16] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk
+[2022-01-04 10:04:20] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\JXTest-1_1_22.apk
+[2022-01-04 10:04:23] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\cam-1_1_0_40.apk
+[2022-01-04 10:04:26] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\doo-2_2_0_341.apk
+[2022-01-04 10:04:35] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\jxservice-1_0_2.apk
+[2022-01-04 10:04:38] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\lan-1_1_0_30.apk
+[2022-01-04 10:04:41] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\padserver-1_4_79-T800C.apk
+[2022-01-04 10:04:48] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\pro-1_1_4_48.apk
+[2022-01-04 10:04:50] adb -s GS40K36G1111 install -r -d -t E:\source\JXPadMainTain\download\up-1_3_0_180.apk
+[2022-01-04 10:04:53] adb -s GS40K36G1111 reboot
+[2022-01-04 16:05:15] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXClock-1_0_0_6.apk md5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-04 16:05:15] download localFile = E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk localMd5 = D1C2546D1485F476F0E0718343BE255C remoteMD5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-04 16:05:15] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXTest-1_1_22.apk md5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-04 16:05:16] download localFile = E:\source\JXPadMainTain\download\JXTest-1_1_22.apk localMd5 = DB7C8DE7421D8D97406C03A0BA02F333 remoteMD5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-04 16:05:16] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/cam-1_1_0_40.apk md5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-04 16:05:16] download localFile = E:\source\JXPadMainTain\download\cam-1_1_0_40.apk localMd5 = 2BACEFA24771C6CA8E4C599A2F4B436D remoteMD5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-04 16:05:16] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/doo-2_2_0_341.apk md5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-04 16:05:18] download localFile = E:\source\JXPadMainTain\download\doo-2_2_0_341.apk localMd5 = 6A8D9272F66811F49B4541F7C489A469 remoteMD5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-04 16:05:18] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/jxservice-1_0_2.apk md5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-04 16:05:19] download localFile = E:\source\JXPadMainTain\download\jxservice-1_0_2.apk localMd5 = E643C6069512C2F2659C44024FBAA092 remoteMD5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-04 16:05:19] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/lan-1_1_0_30.apk md5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-04 16:05:19] download localFile = E:\source\JXPadMainTain\download\lan-1_1_0_30.apk localMd5 = A3ACA3BCA8BC780D4CE93F628AAD5F74 remoteMD5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-04 16:05:19] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pad-2_5_0_1159.apk md5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-04 16:05:23] download localFile = E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk localMd5 = 2DE0DA1A1F19723945A19F92A90D3908 remoteMD5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-04 16:05:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pro-1_1_4_48.apk md5 = 63E883392B0C90A36845D82E38789916
+[2022-01-04 16:05:23] download localFile = E:\source\JXPadMainTain\download\pro-1_1_4_48.apk localMd5 = 63E883392B0C90A36845D82E38789916 remoteMD5 = 63E883392B0C90A36845D82E38789916
+[2022-01-04 16:05:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/up-1_3_0_180.apk md5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-04 16:05:23] download localFile = E:\source\JXPadMainTain\download\up-1_3_0_180.apk localMd5 = CE02403DF8A60777AB0A1ECAF02B1670 remoteMD5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-04 16:05:23] adb -s GR8081710000972 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk
+[2022-01-04 16:06:11] adb -s GR8081710000972 install -r -d -t E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk
+[2022-01-04 16:06:20] adb -s GR8081710000972 install -r -d -t E:\source\JXPadMainTain\download\JXTest-1_1_22.apk
+[2022-01-04 16:06:29] adb -s GR8081710000972 install -r -d -t E:\source\JXPadMainTain\download\cam-1_1_0_40.apk
+[2022-01-04 16:06:35] adb -s GR8081710000972 install -r -d -t E:\source\JXPadMainTain\download\doo-2_2_0_341.apk
+[2022-01-04 16:06:58] adb -s GR8081710000972 install -r -d -t E:\source\JXPadMainTain\download\jxservice-1_0_2.apk
+[2022-01-04 16:07:04] adb -s GR8081710000972 install -r -d -t E:\source\JXPadMainTain\download\lan-1_1_0_30.apk
+[2022-01-04 16:07:12] adb -s GR8081710000972 install -r -d -t E:\source\JXPadMainTain\download\pro-1_1_4_48.apk
+[2022-01-04 16:07:15] adb -s GR8081710000972 install -r -d -t E:\source\JXPadMainTain\download\up-1_3_0_180.apk
+[2022-01-04 16:07:26] adb -s GR8081710000972 reboot
+[2022-01-14 11:17:31] adb connect 10.10.5.179
+[2022-01-14 11:17:43] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXClock-1_0_0_6.apk md5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-14 11:17:43] download localFile = E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk localMd5 = D1C2546D1485F476F0E0718343BE255C remoteMD5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-14 11:17:43] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXTest-1_1_22.apk md5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-14 11:17:43] download localFile = E:\source\JXPadMainTain\download\JXTest-1_1_22.apk localMd5 = DB7C8DE7421D8D97406C03A0BA02F333 remoteMD5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-14 11:17:43] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/cam-1_1_0_40.apk md5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-14 11:17:43] download localFile = E:\source\JXPadMainTain\download\cam-1_1_0_40.apk localMd5 = 2BACEFA24771C6CA8E4C599A2F4B436D remoteMD5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-14 11:17:43] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/doo-2_2_0_341.apk md5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-14 11:17:43] download localFile = E:\source\JXPadMainTain\download\doo-2_2_0_341.apk localMd5 = 6A8D9272F66811F49B4541F7C489A469 remoteMD5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-14 11:17:43] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/jxservice-1_0_2.apk md5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-14 11:17:43] download localFile = E:\source\JXPadMainTain\download\jxservice-1_0_2.apk localMd5 = E643C6069512C2F2659C44024FBAA092 remoteMD5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-14 11:17:43] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/lan-1_1_0_30.apk md5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-14 11:17:43] download localFile = E:\source\JXPadMainTain\download\lan-1_1_0_30.apk localMd5 = A3ACA3BCA8BC780D4CE93F628AAD5F74 remoteMD5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-14 11:17:43] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pad-2_5_0_1159.apk md5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-14 11:17:44] download localFile = E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk localMd5 = 2DE0DA1A1F19723945A19F92A90D3908 remoteMD5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-14 11:17:44] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pro-1_1_4_48.apk md5 = 63E883392B0C90A36845D82E38789916
+[2022-01-14 11:17:44] download localFile = E:\source\JXPadMainTain\download\pro-1_1_4_48.apk localMd5 = 63E883392B0C90A36845D82E38789916 remoteMD5 = 63E883392B0C90A36845D82E38789916
+[2022-01-14 11:17:44] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/up-1_3_0_180.apk md5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-14 11:17:44] download localFile = E:\source\JXPadMainTain\download\up-1_3_0_180.apk localMd5 = CE02403DF8A60777AB0A1ECAF02B1670 remoteMD5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-14 11:17:44] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/padserver-1_4_79-T800C.apk md5 = 062FFD1015B69E55AEDF54F2CA1FF9FB
+[2022-01-14 11:17:44] download localFile = E:\source\JXPadMainTain\download\padserver-1_4_79-T800C.apk localMd5 = 062FFD1015B69E55AEDF54F2CA1FF9FB remoteMD5 = 062FFD1015B69E55AEDF54F2CA1FF9FB
+[2022-01-14 11:17:44] adb -s 10.10.5.179:5555 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk
+[2022-01-14 11:18:10] RuntimeUtil error : cmd = adb -s 10.10.5.179:5555 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk errorMessage = adb: failed to install E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk: Failure [-26: Package com.jingxi.smartlife.pad new target SDK 22 doesn't support runtime permissions but the old target SDK 26 does.]
+[2022-01-14 11:18:10] adb -s 10.10.5.179:5555 install -r -d -t E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk
+[2022-01-14 11:18:16] adb -s 10.10.5.179:5555 install -r -d -t E:\source\JXPadMainTain\download\JXTest-1_1_22.apk
+[2022-01-14 11:18:22] adb -s 10.10.5.179:5555 install -r -d -t E:\source\JXPadMainTain\download\cam-1_1_0_40.apk
+[2022-01-14 11:18:25] adb -s 10.10.5.179:5555 install -r -d -t E:\source\JXPadMainTain\download\doo-2_2_0_341.apk
+[2022-01-14 11:18:49] adb -s 10.10.5.179:5555 install -r -d -t E:\source\JXPadMainTain\download\jxservice-1_0_2.apk
+[2022-01-14 11:18:56] adb -s 10.10.5.179:5555 install -r -d -t E:\source\JXPadMainTain\download\lan-1_1_0_30.apk
+[2022-01-14 11:19:01] adb -s 10.10.5.179:5555 install -r -d -t E:\source\JXPadMainTain\download\padserver-1_4_79-T800C.apk
+[2022-01-14 11:19:21] adb -s 10.10.5.179:5555 install -r -d -t E:\source\JXPadMainTain\download\pro-1_1_4_48.apk
+[2022-01-14 11:19:23] adb -s 10.10.5.179:5555 install -r -d -t E:\source\JXPadMainTain\download\up-1_3_0_180.apk
+[2022-01-14 11:19:28] adb -s 10.10.5.179:5555 reboot
+[2022-01-14 15:30:04] adb connect 192.168.1.104
+[2022-01-14 15:30:13] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXClock-1_0_0_6.apk md5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-14 15:30:13] download localFile = E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk localMd5 = D1C2546D1485F476F0E0718343BE255C remoteMD5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-14 15:30:13] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXTest-1_1_22.apk md5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-14 15:30:13] download localFile = E:\source\JXPadMainTain\download\JXTest-1_1_22.apk localMd5 = DB7C8DE7421D8D97406C03A0BA02F333 remoteMD5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-14 15:30:13] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/cam-1_1_0_40.apk md5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-14 15:30:13] download localFile = E:\source\JXPadMainTain\download\cam-1_1_0_40.apk localMd5 = 2BACEFA24771C6CA8E4C599A2F4B436D remoteMD5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-14 15:30:13] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/doo-2_2_0_341.apk md5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-14 15:30:13] download localFile = E:\source\JXPadMainTain\download\doo-2_2_0_341.apk localMd5 = 6A8D9272F66811F49B4541F7C489A469 remoteMD5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-14 15:30:13] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/jxservice-1_0_2.apk md5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-14 15:30:13] download localFile = E:\source\JXPadMainTain\download\jxservice-1_0_2.apk localMd5 = E643C6069512C2F2659C44024FBAA092 remoteMD5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-14 15:30:13] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/lan-1_1_0_30.apk md5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-14 15:30:13] download localFile = E:\source\JXPadMainTain\download\lan-1_1_0_30.apk localMd5 = A3ACA3BCA8BC780D4CE93F628AAD5F74 remoteMD5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-14 15:30:13] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pad-2_5_0_1159.apk md5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-14 15:30:14] download localFile = E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk localMd5 = 2DE0DA1A1F19723945A19F92A90D3908 remoteMD5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-14 15:30:14] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pro-1_1_4_48.apk md5 = 63E883392B0C90A36845D82E38789916
+[2022-01-14 15:30:14] download localFile = E:\source\JXPadMainTain\download\pro-1_1_4_48.apk localMd5 = 63E883392B0C90A36845D82E38789916 remoteMD5 = 63E883392B0C90A36845D82E38789916
+[2022-01-14 15:30:14] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/up-1_3_0_180.apk md5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-14 15:30:14] download localFile = E:\source\JXPadMainTain\download\up-1_3_0_180.apk localMd5 = CE02403DF8A60777AB0A1ECAF02B1670 remoteMD5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-14 15:30:14] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/padserver-1_4_79-T800C.apk md5 = 062FFD1015B69E55AEDF54F2CA1FF9FB
+[2022-01-14 15:30:14] download localFile = E:\source\JXPadMainTain\download\padserver-1_4_79-T800C.apk localMd5 = 062FFD1015B69E55AEDF54F2CA1FF9FB remoteMD5 = 062FFD1015B69E55AEDF54F2CA1FF9FB
+[2022-01-14 15:30:14] adb -s 192.168.1.104:5555 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk
+[2022-01-14 15:30:35] adb -s 192.168.1.104:5555 install -r -d -t E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk
+[2022-01-14 15:30:44] adb -s 192.168.1.104:5555 install -r -d -t E:\source\JXPadMainTain\download\JXTest-1_1_22.apk
+[2022-01-14 15:30:48] adb -s 192.168.1.104:5555 install -r -d -t E:\source\JXPadMainTain\download\cam-1_1_0_40.apk
+[2022-01-14 15:30:56] adb -s 192.168.1.104:5555 install -r -d -t E:\source\JXPadMainTain\download\doo-2_2_0_341.apk
+[2022-01-14 15:31:16] adb -s 192.168.1.104:5555 install -r -d -t E:\source\JXPadMainTain\download\jxservice-1_0_2.apk
+[2022-01-14 15:31:22] adb -s 192.168.1.104:5555 install -r -d -t E:\source\JXPadMainTain\download\lan-1_1_0_30.apk
+[2022-01-14 15:31:28] adb -s 192.168.1.104:5555 install -r -d -t E:\source\JXPadMainTain\download\padserver-1_4_79-T800C.apk
+[2022-01-14 15:31:41] adb -s 192.168.1.104:5555 install -r -d -t E:\source\JXPadMainTain\download\pro-1_1_4_48.apk
+[2022-01-14 15:31:43] adb -s 192.168.1.104:5555 install -r -d -t E:\source\JXPadMainTain\download\up-1_3_0_180.apk
+[2022-01-14 15:31:48] adb -s 192.168.1.104:5555 reboot
+[2022-01-18 11:33:14] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/helperApp/scriptApp.apk md5 = B04F11C290F31A46007438E2171BCB8D
+[2022-01-18 11:33:15] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/helperApp/jingxi_version_to_app_script md5 = 2541ec2454d2df93e7bc9a1bed149a6f
+[2022-01-18 11:33:15] adb -s 10.10.5.153:5555 install -r -d -t E:\source\JXPadMainTain\download\scriptApp.apk
+[2022-01-18 11:33:39] adb -s 10.10.5.153:5555 push E:\source\JXPadMainTain\download\jingxi_version_to_app_script /sdcard/script
+[2022-01-18 11:33:40] adb -s 10.10.5.153:5555 shell am start -n com.jingxi.smartlife.scriptapp/.MainActivity
+[2022-01-26 15:32:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXClock-1_0_0_6.apk md5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-26 15:32:23] download localFile = E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk localMd5 = D1C2546D1485F476F0E0718343BE255C remoteMD5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-26 15:32:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXTest-1_1_22.apk md5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-26 15:32:23] download localFile = E:\source\JXPadMainTain\download\JXTest-1_1_22.apk localMd5 = DB7C8DE7421D8D97406C03A0BA02F333 remoteMD5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-26 15:32:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/cam-1_1_0_40.apk md5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-26 15:32:23] download localFile = E:\source\JXPadMainTain\download\cam-1_1_0_40.apk localMd5 = 2BACEFA24771C6CA8E4C599A2F4B436D remoteMD5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-26 15:32:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/doo-2_2_0_341.apk md5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-26 15:32:24] download localFile = E:\source\JXPadMainTain\download\doo-2_2_0_341.apk localMd5 = 6A8D9272F66811F49B4541F7C489A469 remoteMD5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-26 15:32:24] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/jxservice-1_0_2.apk md5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-26 15:32:24] download localFile = E:\source\JXPadMainTain\download\jxservice-1_0_2.apk localMd5 = E643C6069512C2F2659C44024FBAA092 remoteMD5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-26 15:32:24] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/lan-1_1_0_30.apk md5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-26 15:32:24] download localFile = E:\source\JXPadMainTain\download\lan-1_1_0_30.apk localMd5 = A3ACA3BCA8BC780D4CE93F628AAD5F74 remoteMD5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-26 15:32:24] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pad-2_5_0_1159.apk md5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-26 15:32:25] download localFile = E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk localMd5 = 2DE0DA1A1F19723945A19F92A90D3908 remoteMD5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-26 15:32:25] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pro-1_1_4_48.apk md5 = 63E883392B0C90A36845D82E38789916
+[2022-01-26 15:32:25] download localFile = E:\source\JXPadMainTain\download\pro-1_1_4_48.apk localMd5 = 63E883392B0C90A36845D82E38789916 remoteMD5 = 63E883392B0C90A36845D82E38789916
+[2022-01-26 15:32:25] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/up-1_3_0_180.apk md5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-26 15:32:25] download localFile = E:\source\JXPadMainTain\download\up-1_3_0_180.apk localMd5 = CE02403DF8A60777AB0A1ECAF02B1670 remoteMD5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-26 15:32:25] adb -s GR8081811002182 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk
+[2022-01-26 15:33:07] adb -s GR8081811002182 install -r -d -t E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk
+[2022-01-26 15:33:26] adb -s GR8081811002182 install -r -d -t E:\source\JXPadMainTain\download\JXTest-1_1_22.apk
+[2022-01-26 15:33:36] adb -s GR8081811002182 install -r -d -t E:\source\JXPadMainTain\download\cam-1_1_0_40.apk
+[2022-01-26 15:33:41] adb -s GR8081811002182 install -r -d -t E:\source\JXPadMainTain\download\doo-2_2_0_341.apk
+[2022-01-26 15:34:02] adb -s GR8081811002182 install -r -d -t E:\source\JXPadMainTain\download\jxservice-1_0_2.apk
+[2022-01-26 15:34:08] adb -s GR8081811002182 install -r -d -t E:\source\JXPadMainTain\download\lan-1_1_0_30.apk
+[2022-01-26 15:34:17] adb -s GR8081811002182 install -r -d -t E:\source\JXPadMainTain\download\pro-1_1_4_48.apk
+[2022-01-26 15:34:21] adb -s GR8081811002182 install -r -d -t E:\source\JXPadMainTain\download\up-1_3_0_180.apk
+[2022-01-26 15:34:31] adb -s GR8081811002182 reboot
+[2022-01-26 16:29:17] adb connect 192.168.1.102
+[2022-01-26 16:33:10] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/helperApp/scriptApp.apk md5 = B04F11C290F31A46007438E2171BCB8D
+[2022-01-26 16:33:10] download localFile = E:\source\JXPadMainTain\download\scriptApp.apk localMd5 = B04F11C290F31A46007438E2171BCB8D remoteMD5 = B04F11C290F31A46007438E2171BCB8D
+[2022-01-26 16:33:10] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/helperApp/jingxi_version_to_app_script md5 = 2541ec2454d2df93e7bc9a1bed149a6f
+[2022-01-26 16:33:10] download localFile = E:\source\JXPadMainTain\download\jingxi_version_to_app_script localMd5 = 2541EC2454D2DF93E7BC9A1BED149A6F remoteMD5 = 2541ec2454d2df93e7bc9a1bed149a6f
+[2022-01-26 16:33:10] adb -s GR8081710000789 install -r -d -t E:\source\JXPadMainTain\download\scriptApp.apk
+[2022-01-26 16:33:16] adb -s GR8081710000789 push E:\source\JXPadMainTain\download\jingxi_version_to_app_script /sdcard/script
+[2022-01-26 16:33:16] adb -s GR8081710000789 shell am start -n com.jingxi.smartlife.scriptapp/.MainActivity
+[2022-01-26 16:33:30] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXClock-1_0_0_6.apk md5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-26 16:33:30] download localFile = E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk localMd5 = D1C2546D1485F476F0E0718343BE255C remoteMD5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-26 16:33:30] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXTest-1_1_22.apk md5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-26 16:33:30] download localFile = E:\source\JXPadMainTain\download\JXTest-1_1_22.apk localMd5 = DB7C8DE7421D8D97406C03A0BA02F333 remoteMD5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-26 16:33:30] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/cam-1_1_0_40.apk md5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-26 16:33:30] download localFile = E:\source\JXPadMainTain\download\cam-1_1_0_40.apk localMd5 = 2BACEFA24771C6CA8E4C599A2F4B436D remoteMD5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-26 16:33:30] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/doo-2_2_0_341.apk md5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-26 16:33:34] download localFile = E:\source\JXPadMainTain\download\doo-2_2_0_341.apk localMd5 = 6A8D9272F66811F49B4541F7C489A469 remoteMD5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-26 16:33:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/jxservice-1_0_2.apk md5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-26 16:33:34] download localFile = E:\source\JXPadMainTain\download\jxservice-1_0_2.apk localMd5 = E643C6069512C2F2659C44024FBAA092 remoteMD5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-26 16:33:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/lan-1_1_0_30.apk md5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-26 16:33:35] download localFile = E:\source\JXPadMainTain\download\lan-1_1_0_30.apk localMd5 = A3ACA3BCA8BC780D4CE93F628AAD5F74 remoteMD5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-26 16:33:35] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pad-2_5_0_1159.apk md5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-26 16:33:38] download localFile = E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk localMd5 = 2DE0DA1A1F19723945A19F92A90D3908 remoteMD5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-26 16:33:38] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pro-1_1_4_48.apk md5 = 63E883392B0C90A36845D82E38789916
+[2022-01-26 16:33:38] download localFile = E:\source\JXPadMainTain\download\pro-1_1_4_48.apk localMd5 = 63E883392B0C90A36845D82E38789916 remoteMD5 = 63E883392B0C90A36845D82E38789916
+[2022-01-26 16:33:38] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/up-1_3_0_180.apk md5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-26 16:33:39] download localFile = E:\source\JXPadMainTain\download\up-1_3_0_180.apk localMd5 = CE02403DF8A60777AB0A1ECAF02B1670 remoteMD5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-26 16:33:39] adb -s GR8081710000789 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk
+[2022-01-26 16:34:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXClock-1_0_0_6.apk md5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-26 16:34:23] download localFile = E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk localMd5 = D1C2546D1485F476F0E0718343BE255C remoteMD5 = D1C2546D1485F476F0E0718343BE255C
+[2022-01-26 16:34:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXTest-1_1_22.apk md5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-26 16:34:23] download localFile = E:\source\JXPadMainTain\download\JXTest-1_1_22.apk localMd5 = DB7C8DE7421D8D97406C03A0BA02F333 remoteMD5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-01-26 16:34:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/cam-1_1_0_40.apk md5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-26 16:34:23] download localFile = E:\source\JXPadMainTain\download\cam-1_1_0_40.apk localMd5 = 2BACEFA24771C6CA8E4C599A2F4B436D remoteMD5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-01-26 16:34:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/doo-2_2_0_341.apk md5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-26 16:34:23] download localFile = E:\source\JXPadMainTain\download\doo-2_2_0_341.apk localMd5 = 6A8D9272F66811F49B4541F7C489A469 remoteMD5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-01-26 16:34:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/jxservice-1_0_2.apk md5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-26 16:34:23] download localFile = E:\source\JXPadMainTain\download\jxservice-1_0_2.apk localMd5 = E643C6069512C2F2659C44024FBAA092 remoteMD5 = E643C6069512C2F2659C44024FBAA092
+[2022-01-26 16:34:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/lan-1_1_0_30.apk md5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-26 16:34:23] download localFile = E:\source\JXPadMainTain\download\lan-1_1_0_30.apk localMd5 = A3ACA3BCA8BC780D4CE93F628AAD5F74 remoteMD5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-01-26 16:34:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pad-2_5_0_1159.apk md5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-26 16:34:23] download localFile = E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk localMd5 = 2DE0DA1A1F19723945A19F92A90D3908 remoteMD5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-01-26 16:34:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pro-1_1_4_48.apk md5 = 63E883392B0C90A36845D82E38789916
+[2022-01-26 16:34:23] download localFile = E:\source\JXPadMainTain\download\pro-1_1_4_48.apk localMd5 = 63E883392B0C90A36845D82E38789916 remoteMD5 = 63E883392B0C90A36845D82E38789916
+[2022-01-26 16:34:23] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/up-1_3_0_180.apk md5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-26 16:34:23] download localFile = E:\source\JXPadMainTain\download\up-1_3_0_180.apk localMd5 = CE02403DF8A60777AB0A1ECAF02B1670 remoteMD5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-01-26 16:34:23] adb -s GR8081710000789 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk
+[2022-01-26 16:34:39] adb -s GR8081710000789 install -r -d -t E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk
+[2022-01-26 16:34:52] adb -s GR8081710000789 install -r -d -t E:\source\JXPadMainTain\download\JXTest-1_1_22.apk
+[2022-01-26 16:35:14] adb -s GR8081710000789 install -r -d -t E:\source\JXPadMainTain\download\cam-1_1_0_40.apk
+[2022-01-26 16:35:21] adb -s GR8081710000789 install -r -d -t E:\source\JXPadMainTain\download\doo-2_2_0_341.apk
+[2022-01-26 16:35:48] adb -s GR8081710000789 install -r -d -t E:\source\JXPadMainTain\download\jxservice-1_0_2.apk
+[2022-01-26 16:35:56] adb -s GR8081710000789 install -r -d -t E:\source\JXPadMainTain\download\lan-1_1_0_30.apk
+[2022-01-26 16:36:07] adb -s GR8081710000789 install -r -d -t E:\source\JXPadMainTain\download\pro-1_1_4_48.apk
+[2022-01-26 16:36:12] adb -s GR8081710000789 install -r -d -t E:\source\JXPadMainTain\download\up-1_3_0_180.apk
+[2022-01-26 16:36:25] adb -s GR8081710000789 reboot
+[2022-02-16 11:03:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXClock-1_0_0_6.apk md5 = D1C2546D1485F476F0E0718343BE255C
+[2022-02-16 11:03:34] download localFile = E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk localMd5 = D1C2546D1485F476F0E0718343BE255C remoteMD5 = D1C2546D1485F476F0E0718343BE255C
+[2022-02-16 11:03:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXTest-1_1_22.apk md5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-02-16 11:03:34] download localFile = E:\source\JXPadMainTain\download\JXTest-1_1_22.apk localMd5 = DB7C8DE7421D8D97406C03A0BA02F333 remoteMD5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-02-16 11:03:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/cam-1_1_0_40.apk md5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-02-16 11:03:35] download localFile = E:\source\JXPadMainTain\download\cam-1_1_0_40.apk localMd5 = 2BACEFA24771C6CA8E4C599A2F4B436D remoteMD5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-02-16 11:03:35] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/doo-2_2_0_341.apk md5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-02-16 11:03:35] download localFile = E:\source\JXPadMainTain\download\doo-2_2_0_341.apk localMd5 = 6A8D9272F66811F49B4541F7C489A469 remoteMD5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-02-16 11:03:35] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/jxservice-1_0_2.apk md5 = E643C6069512C2F2659C44024FBAA092
+[2022-02-16 11:03:35] download localFile = E:\source\JXPadMainTain\download\jxservice-1_0_2.apk localMd5 = E643C6069512C2F2659C44024FBAA092 remoteMD5 = E643C6069512C2F2659C44024FBAA092
+[2022-02-16 11:03:35] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/lan-1_1_0_30.apk md5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-02-16 11:03:35] download localFile = E:\source\JXPadMainTain\download\lan-1_1_0_30.apk localMd5 = A3ACA3BCA8BC780D4CE93F628AAD5F74 remoteMD5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-02-16 11:03:35] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pad-2_5_0_1159.apk md5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-02-16 11:03:36] download localFile = E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk localMd5 = 2DE0DA1A1F19723945A19F92A90D3908 remoteMD5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-02-16 11:03:36] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pro-1_1_4_48.apk md5 = 63E883392B0C90A36845D82E38789916
+[2022-02-16 11:03:36] download localFile = E:\source\JXPadMainTain\download\pro-1_1_4_48.apk localMd5 = 63E883392B0C90A36845D82E38789916 remoteMD5 = 63E883392B0C90A36845D82E38789916
+[2022-02-16 11:03:36] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/up-1_3_0_180.apk md5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-02-16 11:03:36] download localFile = E:\source\JXPadMainTain\download\up-1_3_0_180.apk localMd5 = CE02403DF8A60777AB0A1ECAF02B1670 remoteMD5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-02-16 11:03:36] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk
+[2022-02-16 11:04:22] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk
+[2022-02-16 11:04:31] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\JXTest-1_1_22.apk
+[2022-02-16 11:04:42] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\cam-1_1_0_40.apk
+[2022-02-16 11:04:48] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\doo-2_2_0_341.apk
+[2022-02-16 11:05:10] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\jxservice-1_0_2.apk
+[2022-02-16 11:05:16] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\lan-1_1_0_30.apk
+[2022-02-16 11:05:25] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\pro-1_1_4_48.apk
+[2022-02-16 11:05:28] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\up-1_3_0_180.apk
+[2022-02-16 11:05:39] adb -s GR8081811002052 reboot
+[2022-02-16 11:16:16] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXClock-1_0_0_6.apk md5 = D1C2546D1485F476F0E0718343BE255C
+[2022-02-16 11:16:16] download localFile = E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk localMd5 = D1C2546D1485F476F0E0718343BE255C remoteMD5 = D1C2546D1485F476F0E0718343BE255C
+[2022-02-16 11:16:16] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXTest-1_1_22.apk md5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-02-16 11:16:16] download localFile = E:\source\JXPadMainTain\download\JXTest-1_1_22.apk localMd5 = DB7C8DE7421D8D97406C03A0BA02F333 remoteMD5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-02-16 11:16:16] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/cam-1_1_0_40.apk md5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-02-16 11:16:16] download localFile = E:\source\JXPadMainTain\download\cam-1_1_0_40.apk localMd5 = 2BACEFA24771C6CA8E4C599A2F4B436D remoteMD5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-02-16 11:16:16] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/doo-2_2_0_341.apk md5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-02-16 11:16:16] download localFile = E:\source\JXPadMainTain\download\doo-2_2_0_341.apk localMd5 = 6A8D9272F66811F49B4541F7C489A469 remoteMD5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-02-16 11:16:16] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/jxservice-1_0_2.apk md5 = E643C6069512C2F2659C44024FBAA092
+[2022-02-16 11:16:16] download localFile = E:\source\JXPadMainTain\download\jxservice-1_0_2.apk localMd5 = E643C6069512C2F2659C44024FBAA092 remoteMD5 = E643C6069512C2F2659C44024FBAA092
+[2022-02-16 11:16:16] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/lan-1_1_0_30.apk md5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-02-16 11:16:16] download localFile = E:\source\JXPadMainTain\download\lan-1_1_0_30.apk localMd5 = A3ACA3BCA8BC780D4CE93F628AAD5F74 remoteMD5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-02-16 11:16:16] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pad-2_5_0_1159.apk md5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-02-16 11:16:16] download localFile = E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk localMd5 = 2DE0DA1A1F19723945A19F92A90D3908 remoteMD5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-02-16 11:16:16] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pro-1_1_4_48.apk md5 = 63E883392B0C90A36845D82E38789916
+[2022-02-16 11:16:16] download localFile = E:\source\JXPadMainTain\download\pro-1_1_4_48.apk localMd5 = 63E883392B0C90A36845D82E38789916 remoteMD5 = 63E883392B0C90A36845D82E38789916
+[2022-02-16 11:16:16] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/up-1_3_0_180.apk md5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-02-16 11:16:16] download localFile = E:\source\JXPadMainTain\download\up-1_3_0_180.apk localMd5 = CE02403DF8A60777AB0A1ECAF02B1670 remoteMD5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-02-16 11:16:16] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk
+[2022-02-16 11:16:57] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk
+[2022-02-16 11:17:07] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\JXTest-1_1_22.apk
+[2022-02-16 11:17:25] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\cam-1_1_0_40.apk
+[2022-02-16 11:17:31] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\doo-2_2_0_341.apk
+[2022-02-16 11:17:52] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\jxservice-1_0_2.apk
+[2022-02-16 11:17:58] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\lan-1_1_0_30.apk
+[2022-02-16 11:18:06] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\pro-1_1_4_48.apk
+[2022-02-16 11:18:11] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\up-1_3_0_180.apk
+[2022-02-16 11:18:21] adb -s GR8081811002052 reboot
+[2022-02-16 13:32:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXClock-1_0_0_6.apk md5 = D1C2546D1485F476F0E0718343BE255C
+[2022-02-16 13:32:34] download localFile = E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk localMd5 = D1C2546D1485F476F0E0718343BE255C remoteMD5 = D1C2546D1485F476F0E0718343BE255C
+[2022-02-16 13:32:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/JXTest-1_1_22.apk md5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-02-16 13:32:34] download localFile = E:\source\JXPadMainTain\download\JXTest-1_1_22.apk localMd5 = DB7C8DE7421D8D97406C03A0BA02F333 remoteMD5 = DB7C8DE7421D8D97406C03A0BA02F333
+[2022-02-16 13:32:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/cam-1_1_0_40.apk md5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-02-16 13:32:34] download localFile = E:\source\JXPadMainTain\download\cam-1_1_0_40.apk localMd5 = 2BACEFA24771C6CA8E4C599A2F4B436D remoteMD5 = 2BACEFA24771C6CA8E4C599A2F4B436D
+[2022-02-16 13:32:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/doo-2_2_0_341.apk md5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-02-16 13:32:34] download localFile = E:\source\JXPadMainTain\download\doo-2_2_0_341.apk localMd5 = 6A8D9272F66811F49B4541F7C489A469 remoteMD5 = 6A8D9272F66811F49B4541F7C489A469
+[2022-02-16 13:32:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/jxservice-1_0_2.apk md5 = E643C6069512C2F2659C44024FBAA092
+[2022-02-16 13:32:34] download localFile = E:\source\JXPadMainTain\download\jxservice-1_0_2.apk localMd5 = E643C6069512C2F2659C44024FBAA092 remoteMD5 = E643C6069512C2F2659C44024FBAA092
+[2022-02-16 13:32:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/lan-1_1_0_30.apk md5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-02-16 13:32:34] download localFile = E:\source\JXPadMainTain\download\lan-1_1_0_30.apk localMd5 = A3ACA3BCA8BC780D4CE93F628AAD5F74 remoteMD5 = A3ACA3BCA8BC780D4CE93F628AAD5F74
+[2022-02-16 13:32:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pad-2_5_0_1159.apk md5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-02-16 13:32:34] download localFile = E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk localMd5 = 2DE0DA1A1F19723945A19F92A90D3908 remoteMD5 = 2DE0DA1A1F19723945A19F92A90D3908
+[2022-02-16 13:32:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/pro-1_1_4_48.apk md5 = 63E883392B0C90A36845D82E38789916
+[2022-02-16 13:32:34] download localFile = E:\source\JXPadMainTain\download\pro-1_1_4_48.apk localMd5 = 63E883392B0C90A36845D82E38789916 remoteMD5 = 63E883392B0C90A36845D82E38789916
+[2022-02-16 13:32:34] download http://smartlife-test.oss-cn-shanghai.aliyuncs.com/JXPadMainTain/JX_Version/up-1_3_0_180.apk md5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-02-16 13:32:34] download localFile = E:\source\JXPadMainTain\download\up-1_3_0_180.apk localMd5 = CE02403DF8A60777AB0A1ECAF02B1670 remoteMD5 = CE02403DF8A60777AB0A1ECAF02B1670
+[2022-02-16 13:32:34] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\pad-2_5_0_1159.apk
+[2022-02-16 13:33:07] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\JXClock-1_0_0_6.apk
+[2022-02-16 13:33:14] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\JXTest-1_1_22.apk
+[2022-02-16 13:33:26] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\cam-1_1_0_40.apk
+[2022-02-16 13:33:32] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\doo-2_2_0_341.apk
+[2022-02-16 13:33:54] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\jxservice-1_0_2.apk
+[2022-02-16 13:34:01] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\lan-1_1_0_30.apk
+[2022-02-16 13:34:09] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\pro-1_1_4_48.apk
+[2022-02-16 13:34:13] adb -s GR8081811002052 install -r -d -t E:\source\JXPadMainTain\download\up-1_3_0_180.apk
+[2022-02-16 13:34:23] adb -s GR8081811002052 reboot

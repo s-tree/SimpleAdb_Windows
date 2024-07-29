@@ -1,0 +1,204 @@
+package com.jingxi.officetest.helper;
+
+import java.awt.Color;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+
+import javax.swing.DefaultListCellRenderer;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JList;
+import javax.swing.JScrollPane;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+import javax.swing.UIManager;
+import javax.swing.WindowConstants;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+
+import com.jingxi.officetest.network.NetworkManager;
+import com.jingxi.officetest.network.ScriptBean;
+import com.jingxi.officetest.ui.UIConstants;
+import com.jingxi.officetest.util.ExecUtil;
+import com.jingxi.officetest.util.JFrameManager;
+
+public class ScriptHelper implements WindowListener {
+	JFrame jFrame;
+    JList jList;
+    JScrollPane scrollPane;
+    String deviceName;
+    String scriptUrl;
+	
+    public static final String NAME_NAME = "name";
+	public static final String NAME_SCRIPT = "script";
+	private String scriptName;
+    String[] scripts,showNames;
+    JTextField[] textFields;
+    String title;
+
+	public ScriptHelper(String scriptUrl,String title){
+		this.title = title;
+		initStyle();
+		newFrame();
+		this.scriptUrl = scriptUrl;
+	}
+
+    public void initStyle(){
+        try{
+            UIManager.setLookAndFeel(UIConstants.lookAndFeelLocal);
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void newFrame(){
+        jFrame = new JFrame();
+        jFrame.setLayout(null);
+        jFrame.setBounds(0, 0, UIConstants.panelWidth, UIConstants.panelHeight);
+        jFrame.setLocation(500, 200);
+        jFrame.setTitle(title);
+        jFrame.setResizable(false);
+        jFrame.setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
+        jFrame.addWindowListener(this);
+
+        jList = new JList();
+        DefaultListCellRenderer renderer = new DefaultListCellRenderer();
+        renderer.setHorizontalAlignment(SwingConstants.CENTER);
+        jList.setCellRenderer(renderer);
+        scrollPane = new JScrollPane(jList);
+        scrollPane.setVerticalScrollBarPolicy(
+                JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+        scrollPane.setBounds(UIConstants.tv_rssi_message_x, UIConstants.tv_rssi_message_y, UIConstants.tv_rssi_message_width,UIConstants.tv_rssi_message_height);
+
+        jFrame.add(scrollPane);
+    }
+
+    public void show(String deviceName){
+        this.deviceName = deviceName;
+//        jFrame.setVisible(true);
+        JFrameManager.showJFrame(jFrame);
+        queryScrept();
+    }
+
+    private void queryScrept(){
+    	String data = NetworkManager.getUrl(scriptUrl);
+    	String[] temp = data.split("\n");
+    	if(temp == null || temp.length == 0){
+    		return;
+    	}
+    	for(int i = 0 ; i < temp.length; i++){
+    		temp[i] = temp[i].trim();
+    	}
+    	scriptName = temp[0];
+    	scripts = new String[temp.length - 1];
+    	for(int i = 1 ; i < temp.length; i++){
+    		scripts[i - 1 ] = temp[i];
+    	}
+    	showNames = new String[scripts.length];
+        if(scriptName.equals(ScriptBean.NAME_NAME)){
+        	for(int i = 0 ; i < scripts.length; i++){
+        		showNames[i] = scripts[i].split("\\s+")[0];
+        	}
+        }else if(scriptName.equals(ScriptBean.NAME_SCRIPT)){
+        	for(int i = 0 ; i < scripts.length; i++){
+        		showNames[i] = scripts[i];
+        	}
+        }
+    	if(scriptName.equals(ScriptBean.NAME_NAME)){
+        	jList.setListData(showNames);
+    		jList.addListSelectionListener(new ListSelectionListener() {
+                public void valueChanged(ListSelectionEvent e) {
+                    if(!e.getValueIsAdjusting()){
+                        return;
+                    }
+                    if(scripts == null || scripts.length == 0){
+                        return;
+                    }
+                    String select = scripts[e.getFirstIndex()];
+                    if(scriptName.equals(ScriptBean.NAME_NAME)){
+                    	String url = select.split("\\s+")[1];
+                    	new ScriptHelper(url,showNames[e.getFirstIndex()]).show(deviceName);
+                    }
+//                    else{
+//                    	ExecUtil.exec(select);
+//                    }
+                }
+            });
+    	}
+    	else if(scriptName.equals(ScriptBean.NAME_SCRIPT)){
+        	jList.setLayout(new GridLayout(2*showNames.length+1,1));
+    		textFields = new JTextField[showNames.length];
+    		for(int i = 0 ; i < showNames.length; i++){
+    			textFields[i] = createItem(showNames[i]);
+    			jList.add(textFields[i]);
+    		}
+    		JButton jbutton = new JButton("¿ªÊ¼Ö´ÐÐ");
+    		jbutton.addActionListener(new ActionListener() {
+				
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					// TODO Auto-generated method stub
+					for(int i = 0 ; i < scripts.length ; i++){
+						boolean result = ExecUtil.exec(deviceName, scripts[i]);
+						textFields[i].setBackground(result ? Color.GREEN : Color.RED);
+					}
+				}
+			});
+    		jbutton.setBounds(UIConstants.tv_start_x, UIConstants.tv_start_y,
+    				UIConstants.tv_start_width,UIConstants.tv_start_height);
+            jFrame.add(jbutton);
+    	}
+    }
+    
+    private JTextField createItem(String text){
+		JTextField jTextField = new JTextField();
+		jTextField.setText(text);
+		jTextField.setEditable(false);
+		jTextField.setEnabled(false);
+		jTextField.setHorizontalAlignment(JTextField.CENTER);
+		return jTextField;
+    }
+    
+	@Override
+	public void windowOpened(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowClosing(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowClosed(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowIconified(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowDeiconified(WindowEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void windowActivated(WindowEvent e) {
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public void windowDeactivated(WindowEvent e) {
+		// TODO Auto-generated method stub
+	}
+}
